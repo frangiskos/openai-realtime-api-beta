@@ -27,6 +27,11 @@ export class RealtimeAPI extends RealtimeEventHandler {
      */
     log(...args: any[]): true;
     /**
+     * Determines if the URL is an Azure OpenAI URL
+     * @returns {boolean}
+     */
+    isAzureOpenai(): boolean;
+    /**
      * Connects to Realtime API Websocket Server
      * @param {{model?: string}} [settings]
      * @returns {Promise<true>}

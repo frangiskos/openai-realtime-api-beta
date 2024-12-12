@@ -1,13 +1,14 @@
 {
-  "name": "@openai/realtime-api-beta",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@frangiskos/realtime-api-beta",
+  "version": "0.0.13",
+  "private": false,
   "type": "module",
   "description": "OpenAI Realtime API Reference Client (beta)",
   "main": "index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "mocha ./test/index.js"
+    "test": "mocha ./test/index.js",
+    "build": "tsc"
   },
   "author": "Keith Horwood <khorwood@openai.com>",
   "license": "MIT",
